@@ -13,7 +13,7 @@ test('Should return correct length', () => {
 
 test('Should throw error if string length <1 or >10', () => {
   // Arrange
-  const string = 'Hello world';
+  const string = 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee';
 
   // Act
   // const length = stringLength(string);
