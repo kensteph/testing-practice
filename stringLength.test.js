@@ -16,7 +16,6 @@ test('Should throw error if string length <1', () => {
   const string = '';
 
   // Act
-  // const length = stringLength(string);
 
   // Assert
   expect(() => stringLength(string)).toThrow();
@@ -27,7 +26,6 @@ test('Should throw error if string length >10', () => {
   const string = '12345678911';
 
   // Act
-  // const length = stringLength(string);
 
   // Assert
   expect(() => stringLength(string)).toThrow();
